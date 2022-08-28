@@ -31,6 +31,7 @@ public class Consumer extends Thread{
                 System.out.println("Consumer consumes "+elem);                                
             }
 
+
             try {
                 Thread.sleep(5000);
             } catch (InterruptedException ex){
